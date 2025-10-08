@@ -124,29 +124,24 @@
     <!-- Home Page -->
     <div id="home" class="page active">
         <!-- Fixed Text Overlay -->
-        <div class="fixed inset-0 flex items-center justify-center z-30 pointer-events-none" style="margin-top: calc(-52vh - 1.5cm);">
-            <div class="text-center px-4 text-white">
-                <h1 class="playfair text-6xl md:text-8xl font-bold mb-4 accent-gold">Chez Santa</h1>
-                <p class="playfair text-2xl md:text-3xl text-gray-300">
-                    <span class="fr">Abats Social Club</span>
-                    <span class="en hidden">Abats Social Club</span>
-                </p>
-            </div>
-        </div>
+   
 
-        <!-- Hero Section -->
-        <section class="hero-section-2 min-h-screen relative"
+<!-- Hero Section - prima foto homepage -->
+<section class="hero-section-1 min-h-screen relative"
+style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/Homepage1.jpeg');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;">
+</section>
+
+<!-- Seconda sezione - seconda foto homepage -->
+<section class="hero-section-2 min-h-screen relative"
 style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/homepage2.jpeg');
 background-size: cover;
 background-position: center;
 background-attachment: fixed;">
 </section>
 
-
-        <!-- Final Image Section - seconda foto della home sostituita -->
-        <!-- Nota: il file 'homepage2.jpeg' dovrebbe trovarsi nella stessa cartella dell'HTML (o aggiornare il percorso qui sotto) -->
-        <section class="hero-section-2 min-h-screen relative" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('homepage2.jpeg'), url('https://i.imgur.com/nyGFhMJ.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
-        </section>
     </div>
 
     <!-- Menu Page -->
@@ -209,18 +204,20 @@ background-attachment: fixed;">
                             </div>
                         </div>
                         <div class="order-1 lg:order-2">
-                            <img src="https://i.imgur.com/pWZUGui.jpg" alt="Elegant starter dishes at Chez Santa" 
-                                 class="w-full h-96 object-cover rounded-lg shadow-xl"
-                                 onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                         <img src="images/Menu1.jpeg" alt="Entrées Chez Santa" loading="lazy"
+     class="w-full h-96 object-cover rounded-lg shadow-xl"
+     onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+
                         </div>
                     </div>
 
                     <!-- Plats Section -->
                     <div class="grid lg:grid-cols-2 gap-12 items-center">
                         <div>
-                            <img src="https://i.imgur.com/E0Nbff5.jpg" alt="Main course specialties at Chez Santa" 
-                                 class="w-full h-96 object-cover rounded-lg shadow-xl"
-                                 onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                        <img src="images/Menu2.jpeg" alt="Plats Chez Santa" loading="lazy"
+     class="w-full h-96 object-cover rounded-lg shadow-xl"
+     onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+
                         </div>
                         <div>
                             <h2 class="playfair text-4xl font-semibold text-gray-900 mb-8 accent-gold">
@@ -299,9 +296,10 @@ background-attachment: fixed;">
                             </div>
                         </div>
                         <div class="order-1 lg:order-2">
-                            <img src="https://i.imgur.com/sk7qtPE.jpg" alt="Exquisite desserts at Chez Santa" 
-                                 class="w-full h-96 object-cover rounded-lg shadow-xl"
-                                 onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                         <img src="images/menu3.jpeg" alt="Desserts Chez Santa" loading="lazy"
+     class="w-full h-96 object-cover rounded-lg shadow-xl"
+     onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+
                         </div>
                     </div>
                 </div>
@@ -359,18 +357,20 @@ background-attachment: fixed;">
                         </div>
                     </div>
                     <div class="order-1 lg:order-2">
-                        <img src="https://i.imgur.com/0JPKgAF.jpg" alt="Interior of Chez Santa restaurant" 
-                             class="w-full h-96 object-cover rounded-lg shadow-lg"
-                             onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                        <img src="images/Apropos_1.jpeg" alt="Intérieur de Chez Santa" loading="lazy"
+     class="w-full h-96 object-cover rounded-lg shadow-lg"
+     onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+
                     </div>
                 </div>
 
                 <!-- Second Section: Image + Text -->
                 <div class="grid lg:grid-cols-2 gap-16 items-center mb-16">
                     <div>
-                        <img src="https://i.imgur.com/yklJA3H.jpg" alt="Chez Santa culinary preparation" 
-                             class="w-full h-96 object-cover rounded-lg shadow-lg"
-                             onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                    <img src="images/Apropos2.jpeg" alt="Préparation culinaire Chez Santa" loading="lazy"
+     class="w-full h-96 object-cover rounded-lg shadow-lg"
+     onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+
                     </div>
                     <div>
                         <div class="fr">
