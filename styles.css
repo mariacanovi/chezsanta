@@ -60,7 +60,7 @@ footer::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("images/logosenzasfondo.png"); /* <-- metti qui il TUO nome file PNG */
+  background-image: url("images/logo_sf.png"); /* <-- metti qui il TUO nome file PNG */
   background-repeat: no-repeat;
   background-position: center 12px;     /* centrato, un filo verso l'alto */
   background-size: clamp(140px, 18vw, 240px) auto; /* auto-resize mobile/desktop */
