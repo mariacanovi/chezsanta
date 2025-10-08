@@ -55,5 +55,26 @@ body {
     margin-top: 8px;
   }
 }
+/* === Footer watermark (PNG trasparente, solo CSS) === */
+footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("images/logosenzasfondo.png"); /* <-- metti qui il TUO nome file PNG */
+  background-repeat: no-repeat;
+  background-position: center 12px;     /* centrato, un filo verso l'alto */
+  background-size: clamp(140px, 18vw, 240px) auto; /* auto-resize mobile/desktop */
+  opacity: 0.14;                        /* trasparenza elegante */
+  filter: grayscale(100%);              /* ancora più “di sfondo” */
+  mix-blend-mode: soft-light;           /* fusione morbida su blu scuro */
+  pointer-events: none;                 /* non interferisce coi click */
+  z-index: 0;                           /* dietro al contenuto del footer */
+}
+
+@media (min-width: 1024px) {
+  footer::before {
+    background-position: center 8px;
+  }
+}
 
 
